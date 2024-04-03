@@ -7,3 +7,8 @@ rustup component add clippy
 
 //добавит файловый вотчер
 cargo install cargo-watch
+
+
+//запустит файловый вотчер в папке проекта 
+cd rust-app
+cargo-watch -qc -x run -x clippy
