@@ -1,1 +1,5 @@
 cargo new rust-app
+
+// добавит линтер
+// https://doc.rust-lang.org/clippy/configuration.html
+rustup component add clippy
