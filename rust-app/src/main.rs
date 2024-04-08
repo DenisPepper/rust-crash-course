@@ -19,4 +19,7 @@ fn main() {
     let size2 = 9.1f32;
     let _total_size = size1 + size2;
     let port = DEFAUL_PORT;
+
+    // tuples
+    let personal_data = (22, "John");
 }
