@@ -18,4 +18,5 @@ fn main() {
     let size1 = 5.2f32;
     let size2 = 9.1f32;
     let _total_size = size1 + size2;
+    let port = DEFAUL_PORT;
 }
