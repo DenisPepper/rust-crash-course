@@ -21,6 +21,9 @@ fn main() {
     let port = DEFAUL_PORT;
 
     // tuples
+    // https://doc.rust-lang.org/std/primitive.tuple.html
     let personal_data = (22, "John");
     let (my_age, my_name) = personal_data;
+    let some_age = personal_data.0;
+    let some_name = personal_data.1;
 }
