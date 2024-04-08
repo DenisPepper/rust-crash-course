@@ -3,7 +3,13 @@
 const DEFAUL_PORT: u16 = 3000;
 
 fn greet(name: &String) {
+    // &String - ссылка на значение. Значение НЕ МОЖЕТ быть изменено
     println!("Hello, {}!", name);
+}
+
+fn clear_string(value: &mut String) {
+    // &mut String - ссылка на значение. Значение по ссылке МОЖЕТ быть изменено.
+    value.clear();
 }
 
 fn main() {
@@ -43,4 +49,7 @@ fn main() {
     let s2 = &s1;
     greet(&s1);
     greet(s2);
+
+    let mut name1 = String::from("John");
+    clear_string(&mut name1);
 }
