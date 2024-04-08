@@ -22,4 +22,5 @@ fn main() {
 
     // tuples
     let personal_data = (22, "John");
+    let (my_age, my_name) = personal_data;
 }
